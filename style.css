@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    background: black;
+
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quotes {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    max-width: 60%;
+    border: 1px solid white;
+    padding: 1em;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+}
+.quote-btn {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
