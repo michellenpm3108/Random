@@ -4,30 +4,52 @@
 body {
     margin: 0 auto;
     background: black;
-
+    color: white;
+    font-family: 'Raleway', sans-serif;
 }
 .container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5em;
+}
+h1{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-top: 0;
+    border-top: 7px solid white;
+    padding: .25em .5em 0;
+}
+.quote-container {
+    width: 60%;
+    height: 40vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .quotes {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    max-width: 60%;
-    border: 1px solid white;
     padding: 1em;
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 2em;
 }
 .quote-btn {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
 
+@media (min-width: 700px) {
+    .quote-container {
+        width: 40%;
+    }
+    .quotes {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

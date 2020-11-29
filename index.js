@@ -36,7 +36,21 @@ const quotes = [
     '“Don’t explain your philosophy. Embody it.”- Epictetus',
     '“I begin to speak only when I’m certain what I’ll say isn’t better left unsaid.” – Cato',
     '“When we are no longer able to change a situation, we are challenged to change ourselves.” – Viktor Frankl',
-
+    '"No great thing is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig, I answer that there must be time. Let it first blossom, then bear fruit, then ripen." - Epictetus',
+    '"A gem cannot be polished without friction, nor a man without trials." ― Seneca',
+    '"Because a thing seems difficult for you, do not think it impossible for anyone to accomplish." – Marcus Aurelius',
+    '"If you hear that someone is speaking ill of you, instead of trying to defend yourself you should say: ‘He obviously does not know me very well, since there are so many other faults he could have mentioned’.” ― Epictetus',
+    '"Wealth consists not in having great possessions, but in having few wants." — Epictetus',
+    '“You have power over your mind—not outside events. Realize this, and you will find strength.” – Marcus Aurelius',
+    '"We should always be asking ourselves: “Is this something that is, or is not, in my control?” — Epictetus',
+    '"It is the quality rather than the quantity that matters." — Seneca',
+    '"Difficulties strengthen the mind, as labor does the body." ― Seneca',
+    '"The mind that is anxious about future events is miserable." — Seneca',
+    '"It’s not what happens to you, but how you react to it that matters." — Epictetus',
+    '"Look back over the past, with its changing empires that rose and fell, and you can foresee the future too." — Marcus Aurelius',
+    '"The first rule is to keep an untroubled spirit. The second is to look things in the face and know them for what they are." ― Marcus Aurelius',
+    '"Whatever happens to you has been waiting to happen since the beginning of time. The twining strands of fate wove both of them together." — Marcus Aurelius',
+    '"Remember: Matter. How tiny your share of it. Time. How brief and fleeting your allotment of it. Fate. How small a role you play in it." — Marcus Aurelius'
 ]
  function showQuote(){
     let randomQuote = quotes[Math.floor(Math.random()*quotes.length)]
